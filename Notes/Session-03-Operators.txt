@@ -1,2 +1,17 @@
 Session-03-Operators
 ------------------------------------------
+operator is symbole which perform operation on operand 
+there are 3 types of operator 
+1.unary 
+   increment and decrement operator 
+   ++
+   --  pre and post 
+   
+2.binary 
+    arithmatic 
+	  
+	logical
+	comparision 
+	assigment 
+
+3.ternary 
