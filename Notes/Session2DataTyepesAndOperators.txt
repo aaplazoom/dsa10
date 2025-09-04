@@ -1,0 +1,53 @@
+Session-02 Data Types and Operators
+-------------------------------------
+Last variable  and primitive data type
+
+non-primitive data type 
+1.Object
+      var mobile=
+             {
+               "price":30000,
+			   "brand":"Apple",
+			   "ram":"2GB"
+             }	
+
+        mobile.price=160000;
+        console.log(mobile.price)		
+2.Array 
+    -> Array is a technique to store multiple values in single variable.
+	
+	var fruit=["Apple","Mango","Jackfruit"];
+	index -> it is defult numbering ,starts with 0th position 
+	element->  a value we stored in the index number 
+	
+	there are 2 types array 
+	1.single dimesion (1d)
+	2.multiple dimesion(2d)
+
+Operator ->  it is a symbole to perform specific operation on operand 
+        
+		there are 3 category of the operators 
+		1. Unaray  - single/one . 
+		     Which operator perform operation on single operand 
+			 that is called unary operator 
+			  increment and decrement;
+			  ++ 
+			  --
+			  var a=10;
+			  a++
+			  a+1
+			  
+			  a--
+			  
+			  
+			 
+		2. binaary   two/double 
+		    a symbole perform operation on 2 operands 
+			 var a=10;
+			 var b=20;
+			 var c=a+b;
+			 Arithtmetic  +-/*
+			 assigment    =
+			 logical      &&  ||  ! true or false 
+			 comprasion operator   > ,>= < , <= true or false
+		3.ternary    three 

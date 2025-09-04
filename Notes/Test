@@ -1,0 +1,3 @@
+1)Lexical Scope /also called static scope.
+2)the scope of a variable is determined by its position in the source code. 
+3)Nested functions have access to variables declared in their outer scope.

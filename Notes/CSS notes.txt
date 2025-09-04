@@ -1,0 +1,73 @@
+CSS NOTES:
+==========
+ A CSS rule contains two parts: 1.selector and 2.declaration.
+ Ex.
+ p{font-family:Arial;}
+ In above example p is selector and remaining is declaration.
+ 
+ Selectors: indicate which element the rule applies to. 
+ 
+ Declarations: indicate how the elements referred to in the selector should be styled. 
+ 
+ CSS declarations sit inside curly brackets and each is made up of two parts: 
+ 1.property and 2.value, separated by a colon. 
+ 
+ Ex. h1,h2,h3{font-family:Arial; color:yellow;}
+ In above example color is property and yellow is value.
+ 
+ Properties indicate the aspects of the element you want to change. 
+ 
+ Values specify the settings you want to use for the chosen properties.
+ 
+ EXTERNAL CSS:
+ =============
+ <link href="css/style.css" type="text/css" rel="stylesheet"/>
+ 
+ Above is a link for external css.
+ 
+ <LINK>
+ ======
+The <link> element can be used in an HTML document to tell the browser where to find the CSS file used to style the page.
+ 
+ href
+ ====
+This specifies the path to the CSS file.
+
+type
+====
+This attribute specifies the type of document being linked to. The value should be text/css.
+
+rel
+===
+This specifies the relationship between the HTML page and the file it is linked to. The value should be stylesheet when linking to a CSS file.
+
+An HTML page can use morethan one CSS style sheet. To do this it could have a <link> element for every CSS file it uses. 
+
+INTERNAL CSS:
+=============
+
+<style>
+You can also include CSS ruleswithin an HTML page by placing them inside a <style> element,which usually sits inside the <head> element of the page. 
+
+The <style> element should use the type attribute to indicate that the styles are specified in CSS. The value should be text/css.
+
+CSS Selectors:
+==============
+There are many different types of CSS selector that allow you to target rules to specific elements in an HTML document. 
+
+CSS selectors are case sensitive, so they must match element names and attribute values exactly.
+
+1. Universal Selector        *{}
+2. Type Selector             h1,h2,h3{}
+3. Class Selector            .note{}
+4. ID Selector               #introduction{}
+5. Child Selector            li>a {}
+6. Descendant Selector       p a {}
+7. Adjacent Sibling          h1+p {}
+   Selector
+8. General Sibling           h1~p {}
+   Selector
+   
+   
+
+ 
