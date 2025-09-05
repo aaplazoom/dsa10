@@ -1,0 +1,35 @@
+04-Statemnt 
+it is combination of variable,datatype,operators
+
+there are 3 types of statment 
+1.declration 
+  declare variable, function,class ,object ,etc.. sttament 
+
+  var a;
+  function fun();
+
+  2.arithmatic
+
+   var a=10
+   var b=20;
+   var c=a+b; // arithmatic statment 
+
+   3.logical/conditional statement 
+   it works on true or false 
+   A.branching 
+      if    = if block execute when given condition true  
+      if else =  else block execute when confition will false 
+      else ladder = when have multiple conditions. 
+
+   B.jumping 
+   C.Iteration/Looping /repeatation
+       1.for loop   ENTRY CONTROLED
+        start, stopconditio, incrment /deceremnt 
+
+        for(var i=1;i<=5;i++)
+
+       2.while loop  ENTRY CONTROLED
+       3.do while loop  EXIT CONTROLED
+       4.forEach Loop array 
+       5.inhance loop  map
+      
