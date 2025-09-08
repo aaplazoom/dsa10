@@ -1,0 +1,31 @@
+Session-05- Function 
+--------------------------
+variable
+datatype
+operator
+statement 
+
+ function is combination statements.
+ reusubility 
+ maintainbility
+ 
+ 1.function  it named or unamed and combination of statement 
+   a.function declare 
+       function fun();
+   b.function define 
+       function fun()
+	   {
+	   
+	   }
+   c.function parameter/argument 
+       function fun(username)
+	   {
+	      console.log("Welcome "+username);
+	   }
+	d.function return 
+	  function mult(num1,num2)
+	  {
+	   return num1*num2;
+	  }
+    f.function calling 
+      var output=mult(10,30);	
